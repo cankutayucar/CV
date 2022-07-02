@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CankutayUcarCV.DataAccess\CankutayUcarCV.DataAccess.csproj" />
+    <ProjectReference Include="..\CankutayUcarCV.DTOs\CankutayUcarCV.DTOs.csproj" />
+    <ProjectReference Include="..\CankutayUcarCV.Entities\CankutayUcarCV.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

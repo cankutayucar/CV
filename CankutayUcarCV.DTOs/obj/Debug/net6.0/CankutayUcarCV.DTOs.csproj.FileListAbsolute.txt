@@ -1,0 +1,12 @@
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DTOs\bin\Debug\net6.0\CankutayUcarCV.DTOs.deps.json
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DTOs\bin\Debug\net6.0\CankutayUcarCV.DTOs.dll
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DTOs\bin\Debug\net6.0\CankutayUcarCV.DTOs.pdb
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DTOs\obj\Debug\net6.0\CankutayUcarCV.DTOs.csproj.AssemblyReference.cache
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DTOs\obj\Debug\net6.0\CankutayUcarCV.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DTOs\obj\Debug\net6.0\CankutayUcarCV.DTOs.AssemblyInfoInputs.cache
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DTOs\obj\Debug\net6.0\CankutayUcarCV.DTOs.AssemblyInfo.cs
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DTOs\obj\Debug\net6.0\CankutayUcarCV.DTOs.csproj.CoreCompileInputs.cache
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DTOs\obj\Debug\net6.0\CankutayUcarCV.DTOs.dll
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DTOs\obj\Debug\net6.0\refint\CankutayUcarCV.DTOs.dll
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DTOs\obj\Debug\net6.0\CankutayUcarCV.DTOs.pdb
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DTOs\obj\Debug\net6.0\ref\CankutayUcarCV.DTOs.dll

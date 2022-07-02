@@ -1,0 +1,15 @@
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DataAccess\bin\Debug\net6.0\CankutayUcarCV.DataAccess.deps.json
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DataAccess\bin\Debug\net6.0\CankutayUcarCV.DataAccess.dll
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DataAccess\bin\Debug\net6.0\CankutayUcarCV.DataAccess.pdb
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DataAccess\bin\Debug\net6.0\CankutayUcarCV.Entities.dll
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DataAccess\bin\Debug\net6.0\CankutayUcarCV.Entities.pdb
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DataAccess\obj\Debug\net6.0\CankutayUcarCV.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DataAccess\obj\Debug\net6.0\CankutayUcarCV.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DataAccess\obj\Debug\net6.0\CankutayUcarCV.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DataAccess\obj\Debug\net6.0\CankutayUcarCV.DataAccess.AssemblyInfo.cs
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DataAccess\obj\Debug\net6.0\CankutayUcarCV.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DataAccess\obj\Debug\net6.0\CankutayUcarCV.DataAccess.csproj.CopyComplete
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DataAccess\obj\Debug\net6.0\CankutayUcarCV.DataAccess.dll
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DataAccess\obj\Debug\net6.0\refint\CankutayUcarCV.DataAccess.dll
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DataAccess\obj\Debug\net6.0\CankutayUcarCV.DataAccess.pdb
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.DataAccess\obj\Debug\net6.0\ref\CankutayUcarCV.DataAccess.dll

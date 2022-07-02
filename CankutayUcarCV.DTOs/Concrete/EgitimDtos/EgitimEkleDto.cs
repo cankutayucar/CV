@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using CankutayUcarCV.DTOs.Abstract;
+
+namespace CankutayUcarCV.DTOs.Concrete.EgitimDtos
+{
+    public class EgitimEkleDto : IBaseDto
+    {
+        public string baslik { get; set; }
+        public string altBaslik { get; set; }
+        public string icerik { get; set; }
+        public DateTime baslangic_tarihi { get; set; }
+        public DateTime bitis_tarihi { get; set; }
+    }
+}
