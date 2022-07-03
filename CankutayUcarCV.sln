@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CankutayUcarCV.DataAccess",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CankutayUcarCV.DTOs", "CankutayUcarCV.DTOs\CankutayUcarCV.DTOs.csproj", "{E39D0CE7-E6AE-41A4-B1B6-11A4D737AEAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CankutayUcarCV.Business", "CankutayUcarCV.Business\CankutayUcarCV.Business.csproj", "{3FBE4D7C-F6CE-4886-8C54-D005FC930D9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CankutayUcarCV.Business", "CankutayUcarCV.Business\CankutayUcarCV.Business.csproj", "{3FBE4D7C-F6CE-4886-8C54-D005FC930D9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CankutayUcarCV.Web", "CankutayUcarCV.Web\CankutayUcarCV.Web.csproj", "{F046A869-9CB8-4EB2-A932-246F6BCE4FA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3FBE4D7C-F6CE-4886-8C54-D005FC930D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FBE4D7C-F6CE-4886-8C54-D005FC930D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FBE4D7C-F6CE-4886-8C54-D005FC930D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F046A869-9CB8-4EB2-A932-246F6BCE4FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F046A869-9CB8-4EB2-A932-246F6BCE4FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F046A869-9CB8-4EB2-A932-246F6BCE4FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F046A869-9CB8-4EB2-A932-246F6BCE4FA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
