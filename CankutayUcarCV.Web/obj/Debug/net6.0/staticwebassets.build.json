@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "I88CLsIRbw2PvJpBJXehmvtrW1YEjAS7Y8wMcprnkZo=",
+  "Hash": "uz4aB32nL8Nw+Tl/m0eNTrinD9bxPtdMJ+X3wIlmFbQ=",
   "Source": "CankutayUcarCV.Web",
   "BasePath": "_content/CankutayUcarCV.Web",
   "Mode": "Default",
@@ -32,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\AdminStyles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Cankutay\\Desktop\\Proje\\CankutayUcarCV\\CankutayUcarCV.Web\\wwwroot\\css\\SignIn.css",
+      "SourceId": "CankutayUcarCV.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Cankutay\\Desktop\\Proje\\CankutayUcarCV\\CankutayUcarCV.Web\\wwwroot\\",
+      "BasePath": "_content/CankutayUcarCV.Web",
+      "RelativePath": "css/SignIn.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\SignIn.css"
     },
     {
       "Identity": "C:\\Users\\Cankutay\\Desktop\\Proje\\CankutayUcarCV\\CankutayUcarCV.Web\\wwwroot\\jquery\\jquery.js",
