@@ -11,9 +11,17 @@ build_property.RootNamespace = CankutayUcarCV.Web
 build_property.ProjectDir = C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.Web\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.Web
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Cankutay/Desktop/Proje/CankutayUcarCV/CankutayUcarCV.Web/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Cankutay/Desktop/Proje/CankutayUcarCV/CankutayUcarCV.Web/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Cankutay/Desktop/Proje/CankutayUcarCV/CankutayUcarCV.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=

@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // AddFluentValidation() direk modelstate üzerinden alabiliyoruz
-builder.Services.AddControllersWithViews().AddFluentValidation();
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation().AddFluentValidation();
 builder.Services.AddAutoMapper(typeof(YeteneklerProfile));
 builder.AddInjections();
 
@@ -25,8 +25,16 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default", 
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.UseEndpoints(end =>
+{
+    end.MapAreaControllerRoute(
+        name: "AdminArea",
+        areaName: "Admin",
+        pattern: "Admin/{controller=Home}/{action=Index}/{id?}");
+    end.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
+});
 
 app.Run();
