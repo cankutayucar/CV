@@ -1,12 +1,27 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Text.Json;
+using AutoMapper;
+using CankutayUcarCV.Business.Abstract;
+using CankutayUcarCV.DTOs.Concrete.YeteneklerDtos;
+using CankutayUcarCV.Entities.Conncrete;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CankutayUcarCV.Web.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private readonly IService<Yetenekler> _yeteneklerService;
+        private readonly IMapper _mapper;
+        public HomeController(IService<Yetenekler> yeteneklerService, IMapper mapper)
         {
-            return View();
+            _yeteneklerService = yeteneklerService;
+            _mapper = mapper;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var yeteneklerliste = await _yeteneklerService.GetAllAsync();
+            var result = _mapper.Map<List<YeteneklerListDto>>(yeteneklerliste.ToList());
+            return View(result);
         }
     }
 }

@@ -1,12 +1,13 @@
-using CankutayUcarCV.Business.Abstract;
 using CankutayUcarCV.Business.IOC.Microsoft;
+using CankutayUcarCV.Business.Mapper;
 using FluentValidation.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+// AddFluentValidation() direk modelstate üzerinden alabiliyoruz
 builder.Services.AddControllersWithViews().AddFluentValidation();
-
+builder.Services.AddAutoMapper(typeof(YeteneklerProfile));
 builder.AddInjections();
 
 var app = builder.Build();

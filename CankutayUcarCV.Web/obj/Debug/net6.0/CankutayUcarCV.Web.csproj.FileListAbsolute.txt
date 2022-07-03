@@ -1,6 +1,5 @@
 C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.Web\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.Web\bin\Debug\net6.0\appsettings.json
-C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.Web\bin\Debug\net6.0\CankutayUcarCV.Web.staticwebassets.runtime.json
 C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.Web\bin\Debug\net6.0\CankutayUcarCV.Web.exe
 C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.Web\bin\Debug\net6.0\CankutayUcarCV.Web.deps.json
 C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.Web\bin\Debug\net6.0\CankutayUcarCV.Web.runtimeconfig.json
@@ -43,3 +42,5 @@ C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.Web\bin\Debug\net6
 C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.Web\bin\Debug\net6.0\CankutayUcarCV.Entities.pdb
 C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.Web\obj\Debug\net6.0\CankutayUcarCV.Web.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.Web\obj\Debug\net6.0\CankutayUcarCV.Web.csproj.CopyComplete
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.Web\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Cankutay\Desktop\Proje\CankutayUcarCV\CankutayUcarCV.Web\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

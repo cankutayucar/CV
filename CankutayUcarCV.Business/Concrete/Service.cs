@@ -20,7 +20,8 @@ namespace CankutayUcarCV.Business.Concrete
 
         public async Task<IEnumerable<T>> GetAllAsync()
         {
-            return await _repository.GetAllAsync();
+            var result =await _repository.GetAllAsync();
+            return result.ToList();
         }
 
         public async Task<int> GetCountAsync()

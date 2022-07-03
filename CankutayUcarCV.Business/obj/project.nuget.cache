@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "bIB19bLGc3RuL9pdA1PfvYI20b7fyFF8C49wd18oI4zK8bOeI4wpxkD4WBGM+uOERVB6kNs4eme6csHhGaz7lA==",
+  "dgSpecHash": "vdfFs1+2s9FWaN0wVkcV8Xq13qAveKvWHl2YkoQF/YMBVfcCdG17kAvAGcTx6dA/hMbCGMU8xAX+X+/iF5LPuA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Cankutay\\Desktop\\Proje\\CankutayUcarCV\\CankutayUcarCV.Business\\CankutayUcarCV.Business.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Cankutay\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Cankutay\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
     "C:\\Users\\Cankutay\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512",
     "C:\\Users\\Cankutay\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
     "C:\\Users\\Cankutay\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.1.2\\fluentvalidation.aspnetcore.11.1.2.nupkg.sha512",
     "C:\\Users\\Cankutay\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.1.0\\fluentvalidation.dependencyinjectionextensions.11.1.0.nupkg.sha512",
+    "C:\\Users\\Cankutay\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Cankutay\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
     "C:\\Users\\Cankutay\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Cankutay\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
