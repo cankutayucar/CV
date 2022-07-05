@@ -1,4 +1,5 @@
 ﻿using CankutayUcarCV.Entities.Abstract;
+using CankutayUcarCV.Entities.Conncrete;
 
 namespace CankutayUcarCV.Business.Abstract
 {

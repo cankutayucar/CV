@@ -23,6 +23,8 @@ namespace CankutayUcarCV.Business.IOC.Microsoft
             wab.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             wab.Services.AddScoped(typeof(IService<>), typeof(Service<>));
             wab.Services.AddValidatorsFromAssemblyContaining(typeof(EgitimEkleValidator));
+            wab.Services.AddScoped<IKullaniciRepository, KullaniciRepository>();
+            wab.Services.AddScoped<IKullaniciService, KullaniciService>();
         }  
     }
 }

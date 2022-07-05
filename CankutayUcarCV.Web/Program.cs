@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 // AddFluentValidation() direk modelstate üzerinden alabiliyoruz
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation().AddFluentValidation();
-builder.Services.AddAutoMapper(typeof(YeteneklerProfile));
+builder.Services.AddAutoMapper(typeof(YeteneklerProfile), typeof(KullaniciProfile));
 builder.AddInjections();
 
 //services authentication added
@@ -23,9 +23,8 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         
         // authenticate and authorizate işlemleri
         c.LoginPath = new PathString("/Auth/Login/");
-        c.AccessDeniedPath = new PathString("/Home/Index/");
+        c.AccessDeniedPath = new PathString("/Home/error/");
         c.LogoutPath = new PathString("/Home/Index/");
-        c.Validate();
     }); 
 
 
@@ -42,13 +41,14 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthorization();
-app.UseAuthorization();
+app.UseAuthentication();
+app.UseAuthorization(); 
+
 
 app.UseEndpoints(end =>
 {
     end.MapAreaControllerRoute(
-        name: "AdminArea",
+        name: "Admin",
         areaName: "Admin",
         pattern: "Admin/{controller=Home}/{action=Index}/{id?}");
     end.MapControllerRoute(
