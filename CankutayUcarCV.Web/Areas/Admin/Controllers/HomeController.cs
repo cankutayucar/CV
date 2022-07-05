@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using CankutayUcarCV.Business.Abstract;
 using CankutayUcarCV.DTOs.Concrete.KullaniciDtos;
+using CankutayUcarCV.Web.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -22,7 +23,7 @@ namespace CankutayUcarCV.Web.Areas.Admin.Controllers
         public async Task<IActionResult> Index()
         {
             var user = await _kullaniciService.FindByKullaniciAdiAsync(User.Identity.Name);
-            var kullaniciListDto = _mapper.Map<KullaniciListDto>(user);
+            var kullaniciListDto = _mapper.Map<KullaniciGuncelleViewModel>(user);
             return View(kullaniciListDto);
         }
     }

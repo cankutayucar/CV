@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 // AddFluentValidation() direk modelstate üzerinden alabiliyoruz
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation().AddFluentValidation();
-builder.Services.AddAutoMapper(typeof(YeteneklerProfile), typeof(KullaniciProfile));
+builder.Services.AddAutoMapper(typeof(YeteneklerProfile), typeof(KullaniciProfile), typeof(Program));
 builder.AddInjections();
 
 //services authentication added
