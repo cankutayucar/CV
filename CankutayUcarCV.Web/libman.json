@@ -14,6 +14,13 @@
     {
       "library": "jquery@3.6.0",
       "destination": "wwwroot/jquery/"
+    },
+    {
+      "library": "toastr.js@2.1.4",
+      "destination": "wwwroot/toastr/toastr.js/",
+      "files": [
+        "toastr.min.css"
+      ]
     }
   ]
 }
