@@ -5,6 +5,9 @@
 
 <form asp-action="Index" asp-controller="Home" asp-area="Admin" method="post" enctype="multipart/form-data">
     <input type="hidden" asp-for="id" />
+    <input type="hidden" asp-for="EPOSTA" />
+    <input type="hidden" asp-for="FOTOGRAF_URL" />
+    <input type="hidden" asp-for="DOGUM_TARIHI" />
     <div class="form-group">
         <label class="form-label">Ad : </label>
         <input asp-for="AD" class="form-control" />

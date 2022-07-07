@@ -22,7 +22,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         c.Cookie.Name = "CankutayUcarCV"; // tarayıcıdaki gosterilecek isim
         c.Cookie.SameSite = SameSiteMode.Strict; // diğer tarayıcılara cookie kullanımını kapatır
         c.Cookie.SecurePolicy = CookieSecurePolicy.SameAsRequest; // http ve https de çalışır
-        c.ExpireTimeSpan = TimeSpan.FromMinutes(10); // kullanıcının 20 gün boyunda cookide saklanır
+        c.ExpireTimeSpan = TimeSpan.FromDays(10); // kullanıcının 20 gün boyunda cookide saklanır
         
         // authenticate and authorizate işlemleri
         c.LoginPath = new PathString("/Auth/Login/");

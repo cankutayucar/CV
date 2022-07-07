@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2W1CZJ0RAPHB3JaTywoRJimJulXg0JeM4pVARb0nEJg=",
+  "Hash": "grS2DTfrcyzohRDmM7PjCliztVQWdaaw/pgaCY9j3to=",
   "Source": "CankutayUcarCV.Web",
   "BasePath": "_content/CankutayUcarCV.Web",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\SignIn.css"
+    },
+    {
+      "Identity": "C:\\Users\\Cankutay\\Desktop\\Proje\\CankutayUcarCV\\CankutayUcarCV.Web\\wwwroot\\img\\a0f31575-abf7-4397-bd73-109d03a70aab.png",
+      "SourceId": "CankutayUcarCV.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Cankutay\\Desktop\\Proje\\CankutayUcarCV\\CankutayUcarCV.Web\\wwwroot\\",
+      "BasePath": "_content/CankutayUcarCV.Web",
+      "RelativePath": "img/a0f31575-abf7-4397-bd73-109d03a70aab.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\a0f31575-abf7-4397-bd73-109d03a70aab.png"
     },
     {
       "Identity": "C:\\Users\\Cankutay\\Desktop\\Proje\\CankutayUcarCV\\CankutayUcarCV.Web\\wwwroot\\jquery\\jquery.js",
