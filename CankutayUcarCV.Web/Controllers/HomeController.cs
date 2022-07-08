@@ -3,8 +3,9 @@ using AutoMapper;
 using CankutayUcarCV.Business.Abstract;
 using CankutayUcarCV.DTOs.Concrete.YeteneklerDtos;
 using CankutayUcarCV.Entities.Conncrete;
+using CankutayUcarCV.Web.Helper.SecurityPassword;
 using Microsoft.AspNetCore.Mvc;
-
+using Microsoft.AspNetCore.Identity;
 namespace CankutayUcarCV.Web.Controllers
 {
     public class HomeController : Controller

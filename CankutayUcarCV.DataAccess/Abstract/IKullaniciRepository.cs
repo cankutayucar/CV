@@ -9,7 +9,7 @@ namespace CankutayUcarCV.DataAccess.Abstract
 {
     public interface IKullaniciRepository : IRepository<Kullanici>
     {
-        Task<bool> CheckUserAsync(string userName, string password);
+        Task<Kullanici> CheckUserAsync(string userName);
         Task<Kullanici> FindByKullaniciAdiAsync(string kullanici_Adi);
     }
 }

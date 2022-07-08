@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CankutayUcarCV.Business.Abstract;
+﻿using CankutayUcarCV.Business.Abstract;
+using CankutayUcarCV.Business.Helpers.PasswordSecurity;
 using CankutayUcarCV.DataAccess.Abstract;
 using CankutayUcarCV.Entities.Conncrete;
 
@@ -19,7 +15,13 @@ namespace CankutayUcarCV.Business.Concrete
 
         public async Task<bool> CheckUserAsync(string userName, string password)
         {
-            return await _repository.CheckUserAsync(userName, password);
+            var kullanici = await _repository.CheckUserAsync(userName);
+            if (kullanici != null)
+            {
+                return PasswordSecurity.EncryptPlainTextToCipherText(password) == kullanici.SIFRE;
+            }
+            return false;
+            
         }
 
         public async Task<Kullanici> FindByKullaniciAdiAsync(string kullaniciAdi)

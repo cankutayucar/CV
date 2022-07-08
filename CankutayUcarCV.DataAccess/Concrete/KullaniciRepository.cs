@@ -19,15 +19,14 @@ namespace CankutayUcarCV.DataAccess.Concrete
             _dbConnection = dbConnection;
         }
 
-        public async Task<bool> CheckUserAsync(string userName, string password)
+        public async Task<Kullanici> CheckUserAsync(string userName)
         {
             var user = await _dbConnection.QueryFirstOrDefaultAsync<Kullanici>(
-                "select * from Kullanici where KULLANICI_ADI = @KULLANICI_ADI and SIFRE = @SIFRE", new
+                "select * from Kullanici where KULLANICI_ADI = @KULLANICI_ADI", new
                 {
-                    KULLANICI_ADI = userName,
-                    SIFRE = password
+                    KULLANICI_ADI = userName
                 });
-            return user != null;
+            return user;
 
         }
 
