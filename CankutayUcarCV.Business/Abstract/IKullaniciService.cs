@@ -11,5 +11,8 @@ namespace CankutayUcarCV.Business.Abstract
     {
         Task<bool> CheckUserAsync(string userName, string password);
         Task<Kullanici> FindByKullaniciAdiAsync(string kullaniciAdi);
+
+        Task<bool> UpdatePasswordAsync(string userName, string oldPassword, string newPassword,
+            string ConfirmNewPassword);
     }
 }

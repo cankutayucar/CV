@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.IO;
 using CankutayUcarCV.Entities.Conncrete;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using NToastNotify;
 
 namespace CankutayUcarCV.Web.Areas.Admin.Controllers
@@ -86,6 +88,33 @@ namespace CankutayUcarCV.Web.Areas.Admin.Controllers
                 }
             }
             _toastNotification.AddWarningToastMessage(errorssss);
+            return View(model);
+        }
+
+        [Authorize(Roles = "Administor")]
+        [HttpGet]
+        public async Task<IActionResult> ChangePassword()
+        {
+            return View(new KullaniciSifreDto());
+        }
+
+        [Authorize(Roles = "Administor")]
+        [HttpPost]
+        public async Task<IActionResult> ChangePassword(KullaniciSifreDto model)
+        {
+            var result = await _kullaniciService.UpdatePasswordAsync(User.Identity.Name, model.EskiSifre,
+                model.YeniSIFRE,
+                model.YeniSIFREONAYLA);
+            if (result)
+            {
+                _toastNotification.AddSuccessToastMessage("Şifre başarıyla değiştirilmiştir");
+                await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+                return RedirectToAction("Login", "Auth", new { area = "" });
+            }
+            else
+            {
+                _toastNotification.AddWarningToastMessage("işlem tamamlanamadı");
+            }
             return View(model);
         }
     }

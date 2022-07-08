@@ -21,12 +21,31 @@ namespace CankutayUcarCV.Business.Concrete
                 return PasswordSecurity.EncryptPlainTextToCipherText(password) == kullanici.SIFRE;
             }
             return false;
-            
+
         }
 
         public async Task<Kullanici> FindByKullaniciAdiAsync(string kullaniciAdi)
         {
             return await _repository.FindByKullaniciAdiAsync(kullaniciAdi);
+        }
+
+        public async Task<bool> UpdatePasswordAsync(string userName, string oldPassword, string newPassword, string ConfirmNewPassword)
+        {
+            if (userName != null)
+            {
+                var kullanici = await _repository.CheckUserAsync(userName);
+                if (kullanici != null)
+                {
+                    var eskiSifre = PasswordSecurity.EncryptPlainTextToCipherText(oldPassword);
+                    if (eskiSifre == kullanici.SIFRE && newPassword == ConfirmNewPassword)
+                    {
+                        var yeniSifre = PasswordSecurity.EncryptPlainTextToCipherText(newPassword);
+                        kullanici.SIFRE = yeniSifre;
+                        return await _repository.UpdateAsync(kullanici);
+                    }
+                }
+            }
+            return false;
         }
     }
 }

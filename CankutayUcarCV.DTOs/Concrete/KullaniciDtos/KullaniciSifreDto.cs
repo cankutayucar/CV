@@ -10,6 +10,8 @@ namespace CankutayUcarCV.DTOs.Concrete.KullaniciDtos
     public class KullaniciSifreDto : IBaseDto
     {
         public int id { get; set; }
-        public string SIFRE { get; set; }
+        public string EskiSifre { get; set; }
+        public string YeniSIFRE { get; set; }
+        public string YeniSIFREONAYLA { get; set; }
     }
 }
